@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
       ),
       home: AnimatedSplashScreen(
         duration: 3200,
-        splash: 'assets/chatbot-waving.gif',
+        splash: 'assets/chatbot.png',
         splashIconSize: Get.width / 1.6,
         nextScreen: myPref.pFirst.val ? IntroPage() : HomePage(),
         splashTransition: SplashTransition.rotationTransition,

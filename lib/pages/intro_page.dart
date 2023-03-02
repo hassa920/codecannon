@@ -2,6 +2,7 @@ import 'package:bootstrap_icons/bootstrap_icons.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:xchatbot/app/home_page.dart';
 import 'package:xchatbot/auths/login/login_screen.dart';
 import 'package:xchatbot/helpers/app_color.dart';
 import 'package:xchatbot/helpers/constants.dart';
@@ -182,7 +183,7 @@ class IntroPage extends StatelessWidget {
             Get.lazyPut<AppController>(() => AppController());
 
             //Get.offAll(HomePage());
-            Get.off(LoginScreen(screenHeight: Get.height));
+            Get.off(HomePage());
           },
         ),
       ),

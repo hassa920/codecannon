@@ -291,16 +291,7 @@ class HomePage extends StatelessWidget {
               Text(Constants.appSubName, style: Get.theme.textTheme.titleLarge),
             ],
           ),
-          IconButton(
-            constraints: const BoxConstraints(),
-            padding: EdgeInsets.zero,
-            onPressed: () {},
-            iconSize: 32,
-            icon: Icon(
-              BootstrapIcons.person_circle,
-              color: Get.theme.primaryColor,
-            ),
-          ),
+
         ],
       ),
     );
